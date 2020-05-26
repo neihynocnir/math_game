@@ -34,7 +34,7 @@ class Game
       end
 
       if @ctive.lives > 0
-        puts "P1: #{@player_one.lives}/3 vs P2: #{@player_two.lives}/3"
+        puts "\nP1: #{@player_one.lives}/3 vs P2: #{@player_two.lives}/3"
         player_turn
       else 
         puts "\n------ GAME OVER ------ \n#{@ctive.name} lost! \nGood bye!"
